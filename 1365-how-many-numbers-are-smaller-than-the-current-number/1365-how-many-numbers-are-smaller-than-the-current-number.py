@@ -9,7 +9,3 @@ class Solution(object):
         for i in nums:
             r.append(s[i])
         return r
-            
-            
-        
-        
