@@ -11,8 +11,4 @@ class Solution(object):
                 k=""
         if len(k)!=0:
             s.append(k)
-        p=""
-        y=s[::-1]
-        for i in y:
-                p=p+" "+i   
-        return(p[1:])    
+        return(' '.join(reversed(s)))    
